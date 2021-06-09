@@ -8,7 +8,6 @@ import json
 
 # In[4]:
 
-
 userID = "yosuke_ippo"
 api_path = "https://kenkoooo.com/atcoder/atcoder-api/results?user="
 
