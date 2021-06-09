@@ -107,9 +107,9 @@ for submissions in newestSubmits.values():
         # 作成するファイルへのパス
         path = root + sub["contest_id"] + "/" + problem_num
         # 拡張子の設定（C++, Pythonのみ）
-        if "C++" in sub["language"]:
-            path += ".cpp"
-        elif "Python" in sub["language"]:
+        #if "C++" in sub["language"]:
+        #    path += ".cpp"
+        if "Python" in sub["language"]:
             path += ".py"
         
         # 既に提出コードがある場合は取得せず、次の問題の提出を探す
@@ -140,8 +140,8 @@ for submissions in newestSubmits.values():
             f.write(code_text)
         
         # C++の場合にはclang-formatを使ってフォーマットする
-        if "C++" in sub["language"]:
-            subprocess.call(["clang-format", "-i",  "-style=file", path])
+        #if "C++" in sub["language"]:
+        #    subprocess.call(["clang-format", "-i",  "-style=file", path])
         
         # 追加したファイルの数を増やす
         add_cnt += 1
