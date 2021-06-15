@@ -76,7 +76,6 @@ for contestName in newestSubmits:
 
 # In[11]:
 
-
 import re
 import html
 import chromedriver binary
