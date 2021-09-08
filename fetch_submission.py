@@ -78,7 +78,7 @@ for contestName in newestSubmits:
 
 import re
 import html
-import chromedriver binary
+import chromedriver_binary
 
 from selenium import webdriver
 from time import sleep
