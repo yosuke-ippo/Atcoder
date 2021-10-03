@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/chromedriver-binary-auto-0.1.1"
+		},
+		{
+			"path": "../../Downloads"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Desktop/rpa"
+		},
+		{
+			"path": "../../Documents/VScode_work"
+		}
+	],
+	"settings": {}
+}
